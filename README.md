@@ -21,12 +21,17 @@ If you created wallets with older versions of WebCLI or wallet-gen, you should:
 
 ## Updating an Existing Installation
 
-If you already installed WebCLI, update it with:
+# 1. Go to the latest repository:
+```
+git clone https://github.com/octra-labs/webcli
+cd webcli
+```
+# 2. Git pull
 
 ```bash
 git pull
 ```
-
+This will download the latest updates from the repository
 # Then run the setup again.
 
 Linux / macOS
